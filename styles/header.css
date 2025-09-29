@@ -1,5 +1,5 @@
 #primary {
-  padding-block: 16px 20px;
+  padding-block: 20px;
 }
 
 #primary div {
@@ -19,14 +19,9 @@
 #secondary {
   padding-block: 14px;
   border: solid 1px var(--stroke-color);
-  border-top: none;
+  border-inline: none;
   justify-content: space-between;
-}
-
-#secondary div {
-  display: flex;
   gap: 24px;
-  align-items: center;
 }
 
 #secondary a {
